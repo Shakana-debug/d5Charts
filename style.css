@@ -1,0 +1,311 @@
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+
+html{ 
+    
+font-family: Century Gothic;
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+
+  #wrapper {
+    margin-top: 0;  
+    padding: 0;
+    min-height: 100%;
+    position: relative;
+  }
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding-left: 0;
+    text-align: center;
+    background-color: rgb(217, 196, 236);
+}
+
+
+
+.container {
+    width: ;
+    padding: 0;
+    margin: 0;
+   
+}
+header{
+    background-image: url("fahrul.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    min-height: 8vh;
+    background-color: #5d4954;
+    
+}
+
+.logo{
+    color: azure;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    padding-top: 20px; 
+}
+
+
+.nav-links li{
+    list-style: none;  /*will get rid of the bullet-points*/
+    
+}
+
+
+
+.nav-links a{
+     color: #fff;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+    margin: 10px;
+
+}
+
+.nav-links a:hover{
+    
+   background-color: #fff;
+   color: #000;
+   transition: .5s ease;
+    
+}
+
+
+
+.hamburger div{
+    width: 25px;
+    height: 3px;
+    
+}
+
+
+.title{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    padding-bottom: 90%;
+    transform: translate(-50%,-50%);  
+     
+    
+}
+
+.title h1{
+    color: white;
+    font-size: 55px;
+    
+}
+
+h1 {
+    color: black;
+    font-weight: 600;
+    margin-top: 25px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+   
+}
+
+p {
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+ 
+
+.button{
+        position: absolute;
+        padding-left: 585px;
+    padding-top: 33px;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.btn{
+border: 2px solid white;
+padding: 15px 25px;
+color: white;
+background-color: lightsteelblue;
+text-decoration: none;
+transition: 0.6s ease;
+font-size: 20px;
+border-radius: 10%;
+    margin: 0px;
+}
+
+.btn a{
+margin-top: 0;   
+
+}
+
+h2{
+    margin-top: 100px;
+    color: white;
+}
+
+.what-we-do{
+    
+}
+
+
+.icons {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.icon {
+    margin: 10px;
+    
+}
+
+.icon img {
+    width: 300px;
+    height: 200px;
+}
+
+.about-us {
+    background-color: #dcdcdc;
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    padding: 35px;
+     
+    
+}
+
+
+@media screen and (max-width: 870px) {
+    .nav-links a{
+       margin-right: 10px;
+    } nav{
+        padding-right: 25px;
+    }
+    .nav-links{
+     margin-right: 5%;
+    
+    
+    } 
+    
+}
+
+@media screen and (max-width: 870px) {
+    
+    h1{
+        
+        margin-bottom: 150%;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width:400px) {
+    .nav-links{
+      margin-right: 20%;
+   
+} 
+    .nav-links a{
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 10px;
+    
+
+}
+}
+
+@media screen and (max-width: 700px) {
+   .icon img{
+    width: 60%;
+       padding: 10px 10px
+    
+}
+    } 
+    
+@media screen and (max-width: 400px) {
+   .icon img{
+    width: 95%;
+    
+}
+    }
+
+@media screen and (max-width: 400px) {
+   p {
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+    h3 {
+    font-size: 20px;
+    margin-top: 5px; 
+    margin-bottom: 10px;    
+   
+    } .title h1{
+        font-size: 42px;
+        
+    } 
+    
+    h1{
+        font-weight: 300;
+        margin-top: 0px;
+        margin-bottom: 650%;
+    }    h2{
+        font-size: 36px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+    } 
+    
+}
+    
+    
+
+
+
+
+
